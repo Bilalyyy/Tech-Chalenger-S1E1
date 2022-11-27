@@ -14,8 +14,6 @@ func load(file named: String) -> String? {
 for i in 1...7 {
     var numExo = i
 
-    var greeting = "Hello, playground"
-    //
     var line = load(file: "input\(numExo)")!
     
     let first = Array(line)[0]
